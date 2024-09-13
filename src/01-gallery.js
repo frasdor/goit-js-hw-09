@@ -27,11 +27,11 @@ const initImages = (images) => {
    return fragment;
 };
 
-const main = (root, images) => {
-    document.querySelector(root).appendChild(initImages(images));
+const main = () => {
+    document.querySelector(".gallery").appendChild(initImages(images));
 };
 
-main(".gallery", images);
+main();
 
 const lightbox = new SimpleLightbox('ul.gallery li', {
      captionType: "alt"
