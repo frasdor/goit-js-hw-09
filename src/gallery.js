@@ -8,7 +8,7 @@ const createImage = ({preview, original, description}) =>{
                 class="gallery-image" 
                 src="${preview}" 
                 alt="${description}" 
-                title: "${description}"
+                title="${description}"
                 />
          </a>`;
 

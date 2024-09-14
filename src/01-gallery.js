@@ -15,7 +15,7 @@ const lightbox = new SimpleLightbox('ul.gallery li a', {
  });
 
 
-    lightbox.options('show.simplelightbox', function() {
+    lightbox.on('show.simplelightbox', function() {
         console.log("lightbox on")
     });
     
